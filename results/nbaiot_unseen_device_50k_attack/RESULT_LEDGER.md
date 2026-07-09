@@ -1,0 +1,26 @@
+# N-BaIoT Leave-One-Device-Out Result Ledger
+
+## Fold-Averaged Results
+
+| run_id                  | task   | model_name   | feature_strategy   |   top_k |   folds |   mean_macro_f1 |   std_macro_f1 |   mean_present_macro_f1 |   min_present_macro_f1 |   mean_balanced_accuracy |   mean_minority_recall |   mean_worst_class_recall |   min_present_class_recall |   mean_pr_auc_macro |   mean_train_seconds |   mean_inference_ms_per_1000 |
+|:------------------------|:-------|:-------------|:-------------------|--------:|--------:|----------------:|---------------:|------------------------:|-----------------------:|-------------------------:|-----------------------:|--------------------------:|---------------------------:|--------------------:|---------------------:|-----------------------------:|
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |     nan |       9 |         0.99482 |     0.00529657 |                 0.99482 |               0.985502 |                 0.993873 |               0.999939 |                  0.953963 |                    0.87668 |            0.995975 |              252.325 |                      16.0247 |
+
+## Per-Fold Results
+
+| run_id                  | task   | model_name   | feature_strategy   | top_k   | holdout_device                           |   n_features |   accuracy |   balanced_accuracy |   f1_macro |   minority_recall_mean |   worst_class_recall | worst_class_label   |   pr_auc_macro |   roc_auc_ovr_macro |   train_seconds |   inference_ms_per_1000 |
+|:------------------------|:-------|:-------------|:-------------------|:--------|:-----------------------------------------|-------------:|-----------:|--------------------:|-----------:|-----------------------:|---------------------:|:--------------------|---------------:|--------------------:|----------------:|------------------------:|
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Danmini_Doorbell                         |          115 |   0.998554 |            0.998374 |   0.997927 |                1       |             0.98736  | combo               |       0.999678 |            0.999962 |         240.102 |                 18.4265 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Ecobee_Thermostat                        |          115 |   0.996197 |            0.996177 |   0.996815 |                1       |             0.9665   | tcp                 |       0.997222 |            0.999647 |         224.351 |                 16.8312 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Ennio_Doorbell                           |          115 |   0.988649 |            0.990653 |   0.990645 |                1       |             0.94396  | tcp                 |     nan        |          nan        |         304.246 |                 15.5499 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Philips_B120N10_Baby_Monitor             |          115 |   0.993801 |            0.993028 |   0.994671 |                1       |             0.93782  | tcp                 |       0.994872 |            0.999409 |         229.683 |                 17.077  |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Provision_PT_737E_Security_Camera        |          115 |   0.983792 |            0.981602 |   0.985502 |                0.99945 |             0.8797   | tcp                 |       0.990156 |            0.998865 |         302.481 |                 15.5158 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Provision_PT_838_Security_Camera         |          115 |   0.999976 |            0.999974 |   0.999976 |                1       |             0.99984  | tcp                 |       0.999987 |            0.999998 |         234.417 |                 14.8215 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | Samsung_SNH_1011_N_Webcam                |          115 |   0.99893  |            0.999087 |   0.999085 |                1       |             0.99456  | tcp                 |     nan        |          nan        |         270.203 |                 15.0005 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | SimpleHome_XCS7_1002_WHT_Security_Camera |          115 |   0.999912 |            0.999898 |   0.999917 |                1       |             0.999249 | benign              |       0.999986 |            0.999998 |         243.013 |                 15.6136 |
+| nb_attack_lgbm_weighted | attack | lgbm         | all                |         | SimpleHome_XCS7_1003_WHT_Security_Camera |          115 |   0.986538 |            0.986064 |   0.988841 |                1       |             0.87668  | tcp                 |       0.989926 |            0.99872  |         222.427 |                 15.3864 |
+
+## Claim Control
+
+- This validation can support an unseen-device generalization claim only if the fold-average and weakest-device results are acceptable.
+- Any high mean with a very weak held-out device must be written as heterogeneous generalization, not universal robustness.

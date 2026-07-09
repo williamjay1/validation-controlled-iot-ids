@@ -1,0 +1,13 @@
+dataset,scope,model,train_seconds,inference_ms_per_10000,model_size_kb,peak_memory_mb,hardware
+CICIoT2023 public subsample,full confirmatory split,Flat LightGBM,136.10318319999988,1612.561802546593,41697.9951171875,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+CICIoT2023 public subsample,full confirmatory split,Borderline-SMOTE LightGBM,156.7469113999996,1714.960759011144,41656.2138671875,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+CICIoT2023 public subsample,full confirmatory split,Weighted XGBoost,277.9816428000004,275.6145528429682,24288.7666015625,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+CICIoT2023 public subsample,full confirmatory split,Validation controlled ensemble,392.6916523,894.0855391308053,65944.98046875,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Top ten weighted LightGBM,8.283872049999626,183.7168434228951,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Validation controlled ensemble,26.397142309999985,125.49969478252996,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Weighted LightGBM,12.177885890000471,189.85254907184162,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Weighted XGBoost,18.62448149000084,65.84715370073182,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Top ten flat LightGBM,8.080959070000608,183.2836088103121,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,mean across 10 repeated 70/30 splits,Flat LightGBM,11.926662190000206,187.5139909979667,not aggregated,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+CICIoT2023 public subsample,"stratified quick screen, train_n=220000, test_n=80000",Flat MLP,5.765029800000036,9.313991424889396,131.15625,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"
+IoTID20 public mirror,stratified 70/30 quick screen,Flat MLP,11.693636199999958,6.866119796522082,56.8310546875,not measured,"Windows 11, AMD Ryzen 9 8945HS, 31.3 GB RAM"

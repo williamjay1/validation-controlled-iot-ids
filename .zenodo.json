@@ -1,0 +1,40 @@
+{
+  "title": "Validation controlled imbalance aware learning for fine grained IoT intrusion detection",
+  "upload_type": "software",
+  "publication_date": "2026-07-09",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "affiliation": "Shanghai International Studies University"
+    },
+    {
+      "name": "Wang, Siyu",
+      "affiliation": "Shanghai International Studies University"
+    }
+  ],
+  "description": "Reproducibility package for validation controlled imbalance aware learning experiments for rare IoT attack recognition.",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Internet of Things",
+    "intrusion detection",
+    "class imbalance",
+    "rare attack recognition",
+    "ensemble learning",
+    "external validation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://huggingface.co/datasets/lacg030175/CIC-IoT-2023-neto-subsample",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://archive.ics.uci.edu/dataset/442/detection+of+iot+botnet+attacks+n+baiot",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "dataset"
+    }
+  ]
+}

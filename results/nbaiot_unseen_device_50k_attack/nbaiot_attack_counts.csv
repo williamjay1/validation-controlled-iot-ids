@@ -1,0 +1,12 @@
+family,attack,0
+gafgyt,combo,450000
+gafgyt,udp,450000
+gafgyt,tcp,450000
+benign,benign,367874
+mirai,udpplain,350000
+mirai,ack,350000
+mirai,syn,350000
+mirai,udp,350000
+mirai,scan,332796
+gafgyt,junk,261789
+gafgyt,scan,255111

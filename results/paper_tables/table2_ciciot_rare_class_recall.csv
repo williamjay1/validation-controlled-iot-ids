@@ -1,0 +1,17 @@
+run_id,class_id,class_label,precision,recall,f1,support,model,display_label
+fine_lgbm_full,0,Backdoor_Malware,0.5708884688090737,0.471875,0.5166809238665526,640,Flat LightGBM,Backdoor
+fine_lgbm_full,28,Recon-PingSweep,0.6974169741697417,0.4064516129032258,0.5135869565217391,465,Flat LightGBM,Ping sweep
+fine_lgbm_full,31,Uploading_Attack,0.3642857142857142,0.1910112359550561,0.2506142506142506,267,Flat LightGBM,Uploading
+fine_lgbm_full,33,XSS,0.4860627177700348,0.382716049382716,0.4282425172678434,729,Flat LightGBM,XSS
+fine_lgbm_borderline_smote,0,Backdoor_Malware,0.5321888412017167,0.3875,0.4484629294755877,640,Borderline-SMOTE,Backdoor
+fine_lgbm_borderline_smote,28,Recon-PingSweep,0.6955017301038062,0.432258064516129,0.53315649867374,465,Borderline-SMOTE,Ping sweep
+fine_lgbm_borderline_smote,31,Uploading_Attack,0.365079365079365,0.2584269662921348,0.3026315789473684,267,Borderline-SMOTE,Uploading
+fine_lgbm_borderline_smote,33,XSS,0.642292490118577,0.4458161865569273,0.5263157894736842,729,Borderline-SMOTE,XSS
+fine_xgb_full_weighted,0,Backdoor_Malware,0.4125603864734299,0.6671875,0.5098507462686567,640,Weighted XGBoost,Backdoor
+fine_xgb_full_weighted,28,Recon-PingSweep,0.196522655426765,0.8021505376344086,0.3157003808717731,465,Weighted XGBoost,Ping sweep
+fine_xgb_full_weighted,31,Uploading_Attack,0.2410958904109589,0.6591760299625468,0.3530591775325978,267,Weighted XGBoost,Uploading
+fine_xgb_full_weighted,33,XSS,0.303129074315515,0.6378600823045267,0.410958904109589,729,Weighted XGBoost,XSS
+fine_lgbm_xgb_ensemble_macro_f1,0,Backdoor_Malware,0.5873925501432665,0.640625,0.6128550074738416,640,Ensemble,Backdoor
+fine_lgbm_xgb_ensemble_macro_f1,28,Recon-PingSweep,0.5575539568345323,0.6666666666666666,0.6072477962781586,465,Ensemble,Ping sweep
+fine_lgbm_xgb_ensemble_macro_f1,31,Uploading_Attack,0.4041297935103244,0.5131086142322098,0.4521452145214521,267,Ensemble,Uploading
+fine_lgbm_xgb_ensemble_macro_f1,33,XSS,0.5005959475566151,0.5761316872427984,0.5357142857142857,729,Ensemble,XSS

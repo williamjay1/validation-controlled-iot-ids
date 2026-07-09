@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or result package, please cite the archived release."
+title: "Validation controlled imbalance aware learning for fine grained IoT intrusion detection"
+version: "1.0.0"
+date-released: "2026-07-09"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    affiliation: "Shanghai Academy of Global Governance & Area Studies, Shanghai International Studies University; School of Economics and Finance, Shanghai International Studies University"
+    email: "junjiezhang2024@shisu.edu.cn"
+  - family-names: Wang
+    given-names: Siyu
+    affiliation: "Shanghai Academy of Global Governance & Area Studies, Shanghai International Studies University"
+    email: "wangsiyu_real@126.com"
+keywords:
+  - Internet of Things
+  - intrusion detection
+  - class imbalance
+  - rare attack recognition
+  - ensemble learning
+  - external validation
+license: MIT

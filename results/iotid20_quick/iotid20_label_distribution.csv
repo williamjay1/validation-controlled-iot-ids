@@ -1,0 +1,10 @@
+Label,count
+Mirai-UDP Flooding,183554
+Mirai-Hostbruteforceg,121181
+DoS-Synflooding,59391
+Mirai-HTTP Flooding,55818
+Mirai-Ackflooding,55124
+Scan Port OS,53073
+Normal,40073
+MITM ARP Spoofing,35377
+Scan Hostport,22192
