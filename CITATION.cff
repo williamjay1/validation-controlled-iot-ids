@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or result package, please cite the archived release."
 title: "Validation controlled imbalance aware learning for fine grained IoT intrusion detection"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-07-09"
 type: software
 authors:
