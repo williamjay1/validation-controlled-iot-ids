@@ -11,3 +11,4 @@
 - [x] Final GitHub URL is inserted: https://github.com/williamjay1/validation-controlled-iot-ids.
 - [x] Final Zenodo DOI is inserted: https://doi.org/10.5281/zenodo.21272745.
 - [x] Manuscript Code availability statement is updated with the final DOI before journal portal submission.
+- [x] Clean extraction smoke test completed for dependency imports, quick data download, figure rebuild, reduced CICIoT training and reduced IoTID20 repeated split training. See `docs/REPRODUCIBILITY_SMOKE_TEST_20260709.md`.

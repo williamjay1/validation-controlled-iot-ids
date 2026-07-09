@@ -94,6 +94,7 @@ def choose_alpha(
     lgbm_val: np.ndarray,
     xgb_val: np.ndarray,
     labels: list[str],
+    n_features: int,
     composite_lambda: float,
 ) -> tuple[pd.DataFrame, dict[str, float]]:
     rows: list[dict[str, object]] = []
@@ -106,7 +107,7 @@ def choose_alpha(
             labels,
             train_seconds=0.0,
             inference_seconds=0.0,
-            n_features=lgbm_val.shape[1],
+            n_features=n_features,
             alpha=float(alpha),
             objective="grid",
         )
@@ -146,23 +147,30 @@ def summarize(results: pd.DataFrame, grid: pd.DataFrame, train_n: int | None, te
     lines.append("")
     lines.append("## Test Results")
     lines.append("")
-    lines.append(results[cols].to_markdown(index=False))
+    results_table = results.copy()
+    for col in cols:
+        if col not in results_table.columns:
+            results_table[col] = np.nan
+    lines.append(results_table[cols].to_markdown(index=False))
     lines.append("")
     lines.append("## Validation Alpha Grid")
     lines.append("")
+    grid_cols = [
+        "alpha_lgbm",
+        "accuracy",
+        "balanced_accuracy",
+        "f1_macro",
+        "minority_recall_mean",
+        "worst_class_recall",
+        "pr_auc_macro",
+        "composite_score",
+    ]
+    grid_table = grid.copy()
+    for col in grid_cols:
+        if col not in grid_table.columns:
+            grid_table[col] = np.nan
     lines.append(
-        grid[
-            [
-                "alpha_lgbm",
-                "accuracy",
-                "balanced_accuracy",
-                "f1_macro",
-                "minority_recall_mean",
-                "worst_class_recall",
-                "pr_auc_macro",
-                "composite_score",
-            ]
-        ].to_markdown(index=False)
+        grid_table[grid_cols].to_markdown(index=False)
     )
     lines.append("")
     lines.append("## Claim Control")
@@ -209,7 +217,7 @@ def main() -> None:
     if not np.array_equal(val_y, xgb_val_y) or labels != xgb_labels:
         raise RuntimeError("Validation labels differ between base models.")
 
-    grid, alpha_map = choose_alpha(val_y, lgbm_val, xgb_val, labels, args.composite_lambda)
+    grid, alpha_map = choose_alpha(val_y, lgbm_val, xgb_val, labels, len(features), args.composite_lambda)
     grid.to_csv(out_dir / "validation_alpha_grid.csv", index=False)
     print(f"Selected alphas: {alpha_map}")
 

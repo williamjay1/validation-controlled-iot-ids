@@ -11,7 +11,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RELEASE_ROOT = PROJECT_ROOT / "release_packages"
 REPO_NAME = "validation-controlled-iot-ids"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 RELEASE_DATE = date(2026, 7, 9)
 TARGET = RELEASE_ROOT / f"{REPO_NAME}_v{VERSION}_github_ready"
 ZIP_PATH = RELEASE_ROOT / f"{REPO_NAME}_v{VERSION}_github_ready.zip"
@@ -195,7 +195,7 @@ Known limitation: raw datasets are not redistributed. Users must download them f
     "CITATION.cff": """cff-version: 1.2.0
 message: "If you use this code or result package, please cite the archived release."
 title: "Validation controlled imbalance aware learning for fine grained IoT intrusion detection"
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-07-09"
 type: software
 authors:
@@ -274,7 +274,7 @@ repository-code: "https://github.com/williamjay1/validation-controlled-iot-ids"
                 },
             ],
             "description": "Reproducibility package for validation controlled imbalance aware learning experiments for rare IoT attack recognition.",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "access_right": "open",
             "license": "MIT",
             "keywords": [

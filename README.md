@@ -61,6 +61,10 @@ The raw data files are written under `data/raw/`, which is ignored by git.
 
 Additional baseline and sensitivity scripts are retained in `scripts/` and their generated outputs are under `results/`.
 
+## Smoke-tested quick check
+
+A clean extraction smoke test was completed on 2026-07-09. The test covered dependency imports, `python -m compileall -q scripts`, quick public data download, figure/table rebuilding, reduced CICIoT training and reduced IoTID20 repeated split training. See `docs/REPRODUCIBILITY_SMOKE_TEST_20260709.md`.
+
 ## Primary manuscript results
 
 - CICIoT2023 public subsample ensemble Macro-F1: 0.8828.
