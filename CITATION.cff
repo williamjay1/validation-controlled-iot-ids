@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this code or result package, please cite the archived release."
 title: "Validation controlled imbalance aware learning for fine grained IoT intrusion detection"
 version: "1.0.2"
@@ -21,6 +21,7 @@ keywords:
   - ensemble learning
   - external validation
 license: MIT
-doi: 10.5281/zenodo.21272745
+doi: 10.5281/zenodo.21273069
 url: "https://github.com/williamjay1/validation-controlled-iot-ids"
 repository-code: "https://github.com/williamjay1/validation-controlled-iot-ids"
+

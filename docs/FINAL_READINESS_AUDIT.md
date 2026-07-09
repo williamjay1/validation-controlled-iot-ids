@@ -1,4 +1,4 @@
-# Final Readiness Audit
+﻿# Final Readiness Audit
 
 Checked on 2026-07-01.
 
@@ -42,7 +42,7 @@ DOCX page-level visual render QA could not be completed. LibreOffice was availab
 | Author list, affiliations, corresponding author | Completed in the LaTeX files, but the corresponding author should confirm before portal upload. |
 | Author contributions | Completed in the LaTeX files, but both authors should confirm. |
 | Funding and acknowledgements | Completed with National Social Science Fund of China (General Program) [25BGJ089], but the funding record should be checked against the grant notice. |
-| Public code repository or archive DOI | Completed. GitHub: https://github.com/williamjay1/validation-controlled-iot-ids. DOI: https://doi.org/10.5281/zenodo.21272745. |
+| Public code repository or archive DOI | Completed. GitHub: https://github.com/williamjay1/validation-controlled-iot-ids. DOI: https://doi.org/10.5281/zenodo.21273069. |
 | Cover letter sender details | Completed with Siyu Wang as corresponding author, but sender details should be checked before portal upload. |
 
 ## Go/No-Go Decision
@@ -65,3 +65,4 @@ Portal submission: GO after final human confirmation of author details, funding 
 Proceed with the Scientific Reports route as the primary manuscript. The core claim should remain:
 
 Validation-weighted ensembling improves rare-class CICIoT2023 fine-grained IoT intrusion detection under leakage-controlled evaluation, while IoTID20 and N-BaIoT define the external and unseen-device boundaries of that claim.
+

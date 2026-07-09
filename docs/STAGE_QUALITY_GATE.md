@@ -1,4 +1,4 @@
-# SCI Stage Quality Gate
+﻿# SCI Stage Quality Gate
 
 ## Current Stage
 
@@ -23,7 +23,7 @@ The project has moved from data acquisition and exploratory screening into confi
 
 | Item | Needed action |
 |---|---|
-| Code repository | Completed. Public repository: https://github.com/williamjay1/validation-controlled-iot-ids. Archived DOI: https://doi.org/10.5281/zenodo.21272745 |
+| Code repository | Completed. Public repository: https://github.com/williamjay1/validation-controlled-iot-ids. Archived DOI: https://doi.org/10.5281/zenodo.21273069 |
 | Dataset citation precision | Main manuscript contains numbered references with DOI links where DOI metadata are available and cited references are ordered by first appearance |
 | Statistical uncertainty | CICIoT paired row bootstrap increased to 2,000 resamples; IoTID20 repeated split uncertainty completed over 10 stratified holdouts with 10,000 bootstrap resamples and exact sign flip tests |
 | Explainability | SHAP/feature-importance figure added for the final ensemble's LightGBM component |
@@ -39,3 +39,4 @@ The project has moved from data acquisition and exploratory screening into confi
 | Oversampling is a separate paper | Oversampling is a component in the final imbalance-aware ensemble |
 | Hierarchical classification is a primary contribution | Hierarchical classification is exploratory and supplementary unless optimized further |
 | Full CICIoT2023 was used | The full downloaded CICIoT2023 Hugging Face subsample was used; this must not be described as the complete original corpus |
+

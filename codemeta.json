@@ -1,9 +1,9 @@
-{
+﻿{
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Validation controlled imbalance aware learning for fine grained IoT intrusion detection",
   "version": "1.0.2",
-  "identifier": "https://doi.org/10.5281/zenodo.21272745",
+  "identifier": "https://doi.org/10.5281/zenodo.21273069",
   "codeRepository": "https://github.com/williamjay1/validation-controlled-iot-ids",
   "datePublished": "2026-07-09",
   "programmingLanguage": "Python",
@@ -35,3 +35,4 @@
     "external validation"
   ]
 }
+

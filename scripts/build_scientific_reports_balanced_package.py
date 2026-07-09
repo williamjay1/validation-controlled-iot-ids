@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import hashlib
 import re
@@ -483,7 +483,7 @@ This package restores a Scientific Reports style main article plus supplementary
 
 ## Remaining submission blocker
 
-The code availability section has been updated with the public repository and archive DOI: https://github.com/williamjay1/validation-controlled-iot-ids and https://doi.org/10.5281/zenodo.21272745.
+The code availability section has been updated with the public repository and archive DOI: https://github.com/williamjay1/validation-controlled-iot-ids and https://doi.org/10.5281/zenodo.21273069.
 """
 
 
@@ -565,3 +565,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     sys.exit(main())
+

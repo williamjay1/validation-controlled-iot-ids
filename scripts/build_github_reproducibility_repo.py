@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import hashlib
 import json
@@ -106,7 +106,7 @@ Code is released under the MIT License. Manuscript text, figures, and result tab
 
 ## Citation
 
-Please cite the archived Zenodo release: https://doi.org/10.5281/zenodo.21272745. The public repository is available at https://github.com/williamjay1/validation-controlled-iot-ids.
+Please cite the archived Zenodo release: https://doi.org/10.5281/zenodo.21273069. The public repository is available at https://github.com/williamjay1/validation-controlled-iot-ids.
 """,
     ".gitignore": """.venv/
 __pycache__/
@@ -175,7 +175,7 @@ Use `scripts/download_datasets.py` to retrieve the public files. Downloaded file
 - [x] Manuscript LaTeX source is included.
 - [x] Checksums are generated for the repository snapshot.
 - [x] Final GitHub URL is inserted: https://github.com/williamjay1/validation-controlled-iot-ids.
-- [x] Final Zenodo DOI is inserted: https://doi.org/10.5281/zenodo.21272745.
+- [x] Final Zenodo DOI is inserted: https://doi.org/10.5281/zenodo.21273069.
 - [x] Manuscript Code availability statement is updated with the final DOI before journal portal submission.
 """,
     "RELEASE_NOTES_v1.0.0.md": """# Release notes v1.0.0
@@ -215,7 +215,7 @@ keywords:
   - ensemble learning
   - external validation
 license: MIT
-doi: 10.5281/zenodo.21272745
+doi: 10.5281/zenodo.21273069
 url: "https://github.com/williamjay1/validation-controlled-iot-ids"
 repository-code: "https://github.com/williamjay1/validation-controlled-iot-ids"
 """,
@@ -424,3 +424,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

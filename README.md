@@ -1,4 +1,4 @@
-# Validation controlled imbalance aware learning for IoT intrusion detection
+﻿# Validation controlled imbalance aware learning for IoT intrusion detection
 
 This repository is the reproducibility package for the manuscript:
 
@@ -85,4 +85,5 @@ Code is released under the MIT License. Manuscript text, figures, and result tab
 
 ## Citation
 
-Please cite the archived Zenodo release: https://doi.org/10.5281/zenodo.21272745. The public repository is available at https://github.com/williamjay1/validation-controlled-iot-ids.
+Please cite the archived Zenodo release: https://doi.org/10.5281/zenodo.21273069. The public repository is available at https://github.com/williamjay1/validation-controlled-iot-ids.
+
