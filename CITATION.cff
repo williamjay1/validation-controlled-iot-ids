@@ -21,3 +21,6 @@ keywords:
   - ensemble learning
   - external validation
 license: MIT
+doi: 10.5281/zenodo.21272745
+url: "https://github.com/williamjay1/validation-controlled-iot-ids"
+repository-code: "https://github.com/williamjay1/validation-controlled-iot-ids"

@@ -4,9 +4,9 @@ Checked on 2026-07-01.
 
 ## Current Status
 
-Status: scientific-content-ready package, not portal-submission-final.
+Status: Scientific Reports package with public code repository and Zenodo DOI completed as of 2026-07-09.
 
-The experimental evidence is strong enough for a Scientific Reports or PLOS ONE style manuscript draft. The current primary route is Scientific Reports. A Scientific Reports style pass was completed after benchmarking six recent Scientific Reports IDS or IDS-review articles. The package is not portal-submission-final because author metadata, author declarations, public code/archive link, and final visual DOCX QA still require completion. See `docs/SCIENTIFIC_REPORTS_GO_NO_GO_20260701.md` for the current decision memo.
+The experimental evidence is strong enough for a Scientific Reports or PLOS ONE style manuscript draft. The current primary route is Scientific Reports. A Scientific Reports style pass was completed after benchmarking six recent Scientific Reports IDS or IDS-review articles. The author metadata, declarations, public GitHub repository and Zenodo archive DOI have now been completed in the LaTeX submission candidate. Final portal upload still requires the corresponding author to confirm all portal fields and visual proofs.
 
 ## Completed
 
@@ -35,21 +35,21 @@ The experimental evidence is strong enough for a Scientific Reports or PLOS ONE 
 
 DOCX page-level visual render QA could not be completed. LibreOffice was available at `C:\Program Files\LibreOffice\program\soffice.exe`, but headless rendering timed out without PNG output. Structural DOCX checks passed, but final page review should be performed in Word or LibreOffice after author metadata is filled.
 
-## Submission Blockers
+## Submission Items For Final Human Confirmation
 
-| Blocker | Why it needs human input |
+| Item | Why it needs human confirmation |
 |---|---|
-| Author list, affiliations, corresponding author | Cannot be inferred safely. |
-| Author contributions | Requires agreement among authors. |
-| Funding and acknowledgements | Requires project-specific information. |
-| Public code repository or archive DOI | Requires account/repository choice and upload decision. |
-| Cover letter sender details | Requires corresponding author name, affiliation, and email. |
+| Author list, affiliations, corresponding author | Completed in the LaTeX files, but the corresponding author should confirm before portal upload. |
+| Author contributions | Completed in the LaTeX files, but both authors should confirm. |
+| Funding and acknowledgements | Completed with National Social Science Fund of China (General Program) [25BGJ089], but the funding record should be checked against the grant notice. |
+| Public code repository or archive DOI | Completed. GitHub: https://github.com/williamjay1/validation-controlled-iot-ids. DOI: https://doi.org/10.5281/zenodo.21272745. |
+| Cover letter sender details | Completed with Siyu Wang as corresponding author, but sender details should be checked before portal upload. |
 
 ## Go/No-Go Decision
 
 Scientific readiness: GO.
 
-Portal submission: NO-GO until author metadata, author declarations, the public code URL or archive DOI, and final visual DOCX QA are completed.
+Portal submission: GO after final human confirmation of author details, funding metadata and portal-upload proofs.
 
 ## Optional Strengthening
 

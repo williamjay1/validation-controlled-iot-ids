@@ -12,8 +12,8 @@
       "affiliation": "Shanghai International Studies University"
     }
   ],
-            "description": "Reproducibility package for validation controlled imbalance aware learning experiments for rare IoT attack recognition.",
-            "version": "1.0.1",
+  "description": "Reproducibility package for validation controlled imbalance aware learning experiments for rare IoT attack recognition.",
+  "version": "1.0.1",
   "access_right": "open",
   "license": "MIT",
   "keywords": [

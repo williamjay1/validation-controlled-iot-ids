@@ -688,7 +688,7 @@ The datasets used in this study are publicly available. No new primary data were
 
 \section*{{Code availability}}
 
-The local reproducibility package prepared for public repository release contains executable scripts, pinned environment requirements, generated result CSV files, figure generation code and checksum records for the submitted outputs. The final public repository URL or archive DOI must be inserted in this section before portal submission; the manuscript should not be submitted until that identifier is active.
+The reproducibility package is publicly available at GitHub: \url{{https://github.com/williamjay1/validation-controlled-iot-ids}}. The archived Zenodo release is available at \url{{https://doi.org/10.5281/zenodo.21272745}}. The archive contains executable scripts, pinned environment requirements, generated result CSV files, figure generation code, manuscript source files and checksum records for the submitted outputs.
 
 {REFERENCES}
 
@@ -1205,7 +1205,7 @@ The manuscript addresses a practical limitation in IoT intrusion detection: high
 
 We believe the study fits Scientific Reports because it provides a reproducible applied machine learning validation study using public network intrusion datasets, leakage controlled model selection, multiple baselines, uncertainty estimation, component level explainability and explicit claim boundaries. The revised manuscript follows a Scientific Reports style narrative: problem, method principle, validation evidence, generalization boundary and limitations.
 
-The study used only publicly available network intrusion datasets and did not involve human participants, human tissue or animal subjects. The authors declare no competing interests. The reproducibility package has been prepared locally and the final public repository URL or archive DOI should be inserted in the manuscript before portal submission.
+The study used only publicly available network intrusion datasets and did not involve human participants, human tissue or animal subjects. The authors declare no competing interests. The reproducibility package is publicly available at GitHub and archived with Zenodo DOI https://doi.org/10.5281/zenodo.21272745.
 
 Sincerely,
 
@@ -1258,7 +1258,7 @@ This package implements the Scientific Reports LaTeX route for the IoT intrusion
 - Data availability and code availability sections are present before references.
 - Author contributions, acknowledgements, competing interests, ethics and AI tool disclosure are included.
 - Supplementary information is supplied as a separate TeX file.
-- Remaining blocker before portal submission: release the reproducibility package publicly through GitHub plus Zenodo, OSF or another archive, then insert the active URL or DOI in `main.tex`.
+- Code availability is complete: the public GitHub repository and Zenodo DOI are inserted in `main.tex`.
 """
 
 

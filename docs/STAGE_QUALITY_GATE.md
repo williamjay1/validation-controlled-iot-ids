@@ -2,7 +2,7 @@
 
 ## Current Stage
 
-Status: passed for Scientific Reports LaTeX candidate, except for the public repository URL or archive DOI that must be inserted before portal submission.
+Status: passed for the Scientific Reports LaTeX candidate. The public GitHub repository and Zenodo archive DOI have been inserted into the manuscript package.
 
 The project has moved from data acquisition and exploratory screening into confirmatory-result packaging. The manuscript may now be drafted, but claims must remain tied to the exact validation design.
 
@@ -23,7 +23,7 @@ The project has moved from data acquisition and exploratory screening into confi
 
 | Item | Needed action |
 |---|---|
-| Code repository | Put scripts, requirements, result tables, and figure-generation code into GitHub/Zenodo; add DOI if possible |
+| Code repository | Completed. Public repository: https://github.com/williamjay1/validation-controlled-iot-ids. Archived DOI: https://doi.org/10.5281/zenodo.21272745 |
 | Dataset citation precision | Main manuscript contains numbered references with DOI links where DOI metadata are available and cited references are ordered by first appearance |
 | Statistical uncertainty | CICIoT paired row bootstrap increased to 2,000 resamples; IoTID20 repeated split uncertainty completed over 10 stratified holdouts with 10,000 bootstrap resamples and exact sign flip tests |
 | Explainability | SHAP/feature-importance figure added for the final ensemble's LightGBM component |

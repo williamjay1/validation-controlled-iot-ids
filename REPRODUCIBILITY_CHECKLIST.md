@@ -8,6 +8,6 @@
 - [x] Figure files and figure generation code are included.
 - [x] Manuscript LaTeX source is included.
 - [x] Checksums are generated for the repository snapshot.
-- [ ] Final GitHub URL is inserted after repository creation.
-- [ ] Final Zenodo DOI is inserted after DOI minting.
-- [ ] Manuscript Code availability statement is updated with the final DOI before journal portal submission.
+- [x] Final GitHub URL is inserted: https://github.com/williamjay1/validation-controlled-iot-ids.
+- [x] Final Zenodo DOI is inserted: https://doi.org/10.5281/zenodo.21272745.
+- [x] Manuscript Code availability statement is updated with the final DOI before journal portal submission.

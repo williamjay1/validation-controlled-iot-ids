@@ -30,7 +30,7 @@ Date checked: 2026-07-09
 | Supplementary information | Pass | Supplementary source and PDF are provided, including benchmark context, baseline screens, diagnostics, sensitivity analyses, runtime details, and reproduction notes. |
 | References | Pass | References are embedded in `main.tex` through `thebibliography`, are ordered by citation sequence, and include DOI or stable URL information where available. No separate `.bib` file is required. |
 | Data availability | Pass | Public dataset sources and local processed result files are described. |
-| Code availability | Blocker before portal submission | The statement is present, but a public GitHub, Zenodo, OSF, or equivalent archive URL or DOI still must be inserted before actual submission. |
+| Code availability | Pass | The statement includes the public GitHub repository and the archived Zenodo DOI. |
 | Competing interests | Pass | A competing interests statement is included. |
 | Ethics statement | Pass | The manuscript states that only public benchmark network traffic datasets were used and no human participants or personal data were involved. |
 | AI or tool use disclosure | Pass | Tool assisted coding, numerical checking, and language editing are disclosed without claiming authorship. |
@@ -52,4 +52,4 @@ Date checked: 2026-07-09
 
 ## Open blocker before actual submission
 
-The only submission critical blocker is the code availability archive. Before pressing submit, create a public repository or archival record and replace the Code availability placeholder with a live URL or DOI. The archive should include scripts, requirements, result CSV files, figure generation code, figure files, supplementary tables, checksums, and a short reproduction README.
+No code availability blocker remains. The public repository and archived DOI are active and the archive includes scripts, requirements, result CSV files, figure generation code, figure files, supplementary tables, checksums, and a short reproduction README.

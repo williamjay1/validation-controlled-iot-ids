@@ -10,7 +10,7 @@ The manuscript addresses a practical limitation in IoT intrusion detection: high
 
 We believe the study fits Scientific Reports because it provides a reproducible applied machine learning validation study using public network intrusion datasets, leakage controlled model selection, multiple baselines, uncertainty estimation, component level explainability and explicit claim boundaries. The revised manuscript follows a Scientific Reports style narrative: problem, method principle, validation evidence, generalization boundary and limitations.
 
-The study used only publicly available network intrusion datasets and did not involve human participants, human tissue or animal subjects. The authors declare no competing interests. The reproducibility package has been prepared locally and the final public repository URL or archive DOI should be inserted in the manuscript before portal submission.
+The study used only publicly available network intrusion datasets and did not involve human participants, human tissue or animal subjects. The authors declare no competing interests. The reproducibility package is publicly available at https://github.com/williamjay1/validation-controlled-iot-ids and archived at https://doi.org/10.5281/zenodo.21272745.
 
 Sincerely,
 

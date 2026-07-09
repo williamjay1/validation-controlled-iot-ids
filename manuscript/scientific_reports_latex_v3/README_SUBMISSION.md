@@ -36,4 +36,4 @@ This package restores a Scientific Reports style main article plus supplementary
 
 ## Remaining submission blocker
 
-The code availability section still needs an active public repository URL or archive DOI before portal submission.
+The code availability section now contains an active GitHub repository URL and Zenodo DOI.

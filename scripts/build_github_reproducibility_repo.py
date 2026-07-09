@@ -11,7 +11,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RELEASE_ROOT = PROJECT_ROOT / "release_packages"
 REPO_NAME = "validation-controlled-iot-ids"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 RELEASE_DATE = date(2026, 7, 9)
 TARGET = RELEASE_ROOT / f"{REPO_NAME}_v{VERSION}_github_ready"
 ZIP_PATH = RELEASE_ROOT / f"{REPO_NAME}_v{VERSION}_github_ready.zip"
@@ -106,7 +106,7 @@ Code is released under the MIT License. Manuscript text, figures, and result tab
 
 ## Citation
 
-Please cite the archived Zenodo release once the DOI is minted. Before journal submission, update `CITATION.cff`, this README, and the manuscript Code availability statement with the final repository URL and DOI.
+Please cite the archived Zenodo release: https://doi.org/10.5281/zenodo.21272745. The public repository is available at https://github.com/williamjay1/validation-controlled-iot-ids.
 """,
     ".gitignore": """.venv/
 __pycache__/
@@ -174,9 +174,9 @@ Use `scripts/download_datasets.py` to retrieve the public files. Downloaded file
 - [x] Figure files and figure generation code are included.
 - [x] Manuscript LaTeX source is included.
 - [x] Checksums are generated for the repository snapshot.
-- [ ] Final GitHub URL is inserted after repository creation.
-- [ ] Final Zenodo DOI is inserted after DOI minting.
-- [ ] Manuscript Code availability statement is updated with the final DOI before journal portal submission.
+- [x] Final GitHub URL is inserted: https://github.com/williamjay1/validation-controlled-iot-ids.
+- [x] Final Zenodo DOI is inserted: https://doi.org/10.5281/zenodo.21272745.
+- [x] Manuscript Code availability statement is updated with the final DOI before journal portal submission.
 """,
     "RELEASE_NOTES_v1.0.0.md": """# Release notes v1.0.0
 
@@ -195,7 +195,7 @@ Known limitation: raw datasets are not redistributed. Users must download them f
     "CITATION.cff": """cff-version: 1.2.0
 message: "If you use this code or result package, please cite the archived release."
 title: "Validation controlled imbalance aware learning for fine grained IoT intrusion detection"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-07-09"
 type: software
 authors:
@@ -215,6 +215,9 @@ keywords:
   - ensemble learning
   - external validation
 license: MIT
+doi: 10.5281/zenodo.21272745
+url: "https://github.com/williamjay1/validation-controlled-iot-ids"
+repository-code: "https://github.com/williamjay1/validation-controlled-iot-ids"
 """,
     "codemeta.json": json.dumps(
         {
@@ -271,6 +274,7 @@ license: MIT
                 },
             ],
             "description": "Reproducibility package for validation controlled imbalance aware learning experiments for rare IoT attack recognition.",
+            "version": "1.0.1",
             "access_right": "open",
             "license": "MIT",
             "keywords": [
